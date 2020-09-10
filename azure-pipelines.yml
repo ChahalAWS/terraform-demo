@@ -12,7 +12,7 @@ stages:
 - stage: build
   displayName: Build and Push
   jobs:  
-  - job: job_helm
+  - job: helm
     displayName: Helm Publish
     pool:
       vmImage: 'ubuntu-latest'
