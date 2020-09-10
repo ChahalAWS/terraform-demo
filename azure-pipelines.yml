@@ -6,7 +6,7 @@ pr: none
 variables:
   HELM_EXPERIMENTAL_OCI: 1
   ACR.Name: 'acrtest123321'
-  Azure.ServiceConnection: '95fbb3f3-566c-4187-b976-cb49817a7c06'
+  Azure.ServiceConnection: 'b48b2057-e057-4296-bc70-e6a50e76e986'
 
 stages:
 - stage: build
